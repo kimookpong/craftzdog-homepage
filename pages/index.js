@@ -17,7 +17,12 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import {
+  IoLogoTwitter,
+  IoLogoFacebook,
+  IoLogoInstagram,
+  IoLogoGithub
+} from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -37,15 +42,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m a developer based on Nakorn Sri Thammarat, Thailand!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Hakim Mudor
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Freelance Dev.</p>
         </Box>
         <Box
           flexShrink={0}
@@ -79,12 +84,12 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          Meet Hakim Mudor, a skilled developer with a passion for creating
+          dynamic and user-friendly websites and applications. With expertise in
+          React and PHP, I brings a wealth of technical knowledge and creativity
+          to every project. I'm dedicated to delivering top-quality results, and
+          his attention to detail is second to none. If you're looking for a
+          talented and reliable developer, look no further than Hakim Mudor.{' '}
           <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
             Inkdrop
           </Link>
@@ -118,22 +123,34 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>1989</BioYear>
+          Born in{' '}
+          <Link
+            href="https://en.wikipedia.org/wiki/Narathiwat_province"
+            target="_blank"
+          >
+            Narathiwat
+          </Link>{' '}
+          (นราธิวาส), Southern of Thailand.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2012</BioYear>
+          Graduated with a Bachelor's degree in Computer Engineering from the
+          Faculty of Engineering, Prince of Songkhla University.
+          (จบการศึกษาปริญญาตรี คณะวิศวกรรมศาสตร์ สาขาวิศวกรรมคอมพิวเตอร์,
+          มหาวิทยาลัยสงขลานครินทร์)
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2013</BioYear>
+          Start working as a developer at a company in Hatyai, Songkhla.
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2020 to present</BioYear>
+          System Analyse at{' '}
+          <Link href="https://www.wu.ac.th/" target="_blank">
+            Walailak University
+          </Link>
+          .
         </BioSection>
       </Section>
 
@@ -160,28 +177,31 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/kimookpong" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @kimookpong
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link
+              href="https://www.facebook.com/hakim.mudor89/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoFacebook />}
               >
-                @inkdrop_app (English)
+                @Hakim Mudor
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <Link href="https://twitter.com/craftzdog" target="_blank">
               <Button
                 variant="ghost"
@@ -191,15 +211,15 @@ const Home = () => (
                 @craftzdog (日本語)
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="kimookpong" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @kimookpong
               </Button>
             </Link>
           </ListItem>
