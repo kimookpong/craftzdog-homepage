@@ -46,6 +46,7 @@ const Home = () => (
             Hakim Mudor
           </Heading>
           <p>Freelance Dev.</p>
+          <p>I got married and have a lovely one child.</p>
         </Box>
         <Box
           flexShrink={0}
@@ -142,7 +143,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020 to present</BioYear>
-          System Analyse at{' '}
+          System Analyst at{' '}
           <Link href="https://www.wu.ac.th/" target="_blank">
             Walailak University
           </Link>
@@ -156,14 +157,10 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+          <Link href="https://www.nextflix.com/" target="_blank">
+            Netflix
           </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          , Garden, Photography
         </Paragraph>
       </Section>
 
