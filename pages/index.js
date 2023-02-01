@@ -17,12 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import {
-  IoLogoTwitter,
-  IoLogoFacebook,
-  IoLogoInstagram,
-  IoLogoGithub
-} from 'react-icons/io5'
+import { IoLogoFacebook, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -87,9 +82,10 @@ const Home = () => (
           Meet Hakim Mudor, a skilled developer with a passion for creating
           dynamic and user-friendly websites and applications. With expertise in
           React and PHP, I brings a wealth of technical knowledge and creativity
-          to every project. I'm dedicated to delivering top-quality results, and
-          his attention to detail is second to none. If you're looking for a
-          talented and reliable developer, look no further than Hakim Mudor.{' '}
+          to every project. I&apos;m dedicated to delivering top-quality
+          results, and his attention to detail is second to none. If you&apos;re
+          looking for a talented and reliable developer, look no further than
+          Hakim Mudor.{' '}
           <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
             Inkdrop
           </Link>
@@ -135,8 +131,8 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2012</BioYear>
-          Graduated with a Bachelor's degree in Computer Engineering from the
-          Faculty of Engineering, Prince of Songkhla University.
+          Graduated with a Bachelor&apos;s degree in Computer Engineering from
+          the Faculty of Engineering, Prince of Songkhla University.
           (จบการศึกษาปริญญาตรี คณะวิศวกรรมศาสตร์ สาขาวิศวกรรมคอมพิวเตอร์,
           มหาวิทยาลัยสงขลานครินทร์)
         </BioSection>
