@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="HRMS">
     <Container>
       <Title>
-        AB Games<Badge>2024-</Badge>
+        AB Games <Badge>2024-</Badge>
       </Title>
       <P>
         The AB Game is a guessing game where players try to guess a 4-digit
