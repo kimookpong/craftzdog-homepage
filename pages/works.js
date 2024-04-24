@@ -6,6 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbHrms from '../public/images/works/hrms_01.png'
 import thumbTcnap from '../public/images/works/tcnap_01.png'
 import thumbFarmd from '../public/images/works/farmd_01.png'
+import thumbAbgame from '../public/images/works/abgame.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -38,6 +39,22 @@ const Works = () => (
         <Section>
           <WorkGridItem id="hrms" title="HRMS-WU" thumbnail={thumbHrms}>
             Human Resource Managenent System : Walailak University
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={0.2}>
+        <Divider my={6} />
+        <Heading as="h3" fontSize={20} mb={4}>
+          Games
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="ab-game" title="AB-Game" thumbnail={thumbAbgame}>
+            The AB Game is a guessing game where players try to guess a 4-digit
+            number, with each digit being unique.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
