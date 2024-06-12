@@ -142,8 +142,8 @@ const Home = () => (
           System Analyst at{' '}
           <Link href="https://www.wu.ac.th/" target="_blank">
             Walailak University
-          </Link>
-          .
+          </Link>{' '}
+          and open to freelance work from external organizations.
         </BioSection>
       </Section>
 
