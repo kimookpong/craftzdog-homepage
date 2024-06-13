@@ -6,10 +6,10 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="HRMS">
+  <Layout title="Stock Management">
     <Container>
       <Title>
-        Stock Management <Badge>2024-</Badge>
+        Stock Management <Badge>2024</Badge>
       </Title>
       <P>
         A stock management system utilizing QR code scanning for real-time

@@ -8,13 +8,13 @@ const Work = () => (
   <Layout title="HRMS">
     <Container>
       <Title>
-        HRMS-WU <Badge>2021-</Badge>
+        HRMS-WU <Badge>2021 - current</Badge>
       </Title>
       <P>Human Resource Managenent System : Walailak University</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://hrms.wu.ac.th/">
+          <Link href="https://hrms.wu.ac.th/" isExternal>
             https://hrms.wu.ac.th/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

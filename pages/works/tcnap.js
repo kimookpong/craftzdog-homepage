@@ -8,13 +8,13 @@ const Work = () => (
   <Layout title="Tcnap">
     <Container>
       <Title>
-        Tcnap <Badge>2022-</Badge>
+        Tcnap <Badge>2022 - current</Badge>
       </Title>
       <P> Thailand Community Network Assessment Project</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://tcnap.org/">
+          <Link href="https://tcnap.org/" isExternal>
             https://tcnap.org/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

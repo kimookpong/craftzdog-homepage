@@ -6,10 +6,10 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="HRMS">
+  <Layout title="Wanderwoods POS">
     <Container>
       <Title>
-        Wanderwoods POS <Badge>2024-</Badge>
+        Wanderwoods POS <Badge>2024</Badge>
       </Title>
       <P>Point of Sale (POS) for big restaurant</P>
       <List ml={4} my={4}>

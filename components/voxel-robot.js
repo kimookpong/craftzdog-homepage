@@ -68,6 +68,15 @@ const VoxelDog = () => {
       const ambientLight = new THREE.AmbientLight(0xcccccc, 1)
       scene.add(ambientLight)
 
+      const directionalLight = new THREE.DirectionalLight(0xffffff, 1)
+      directionalLight.position.set(5, 10, 7.5)
+      directionalLight.castShadow = true // Enable shadow casting for the light
+      directionalLight.shadow.mapSize.width = 1024
+      directionalLight.shadow.mapSize.height = 1024
+      directionalLight.shadow.camera.near = 0.5
+      directionalLight.shadow.camera.far = 50
+      scene.add(directionalLight)
+
       const controls = new OrbitControls(camera, renderer.domElement)
       controls.autoRotate = true
       controls.target = target

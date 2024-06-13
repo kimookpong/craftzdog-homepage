@@ -28,12 +28,10 @@ const Logo = () => {
         <FootprintIcon />
         <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-          fontFamily='M PLUS Rounded 1c", sans-serif'
           fontWeight="bold"
-          ml={3}
+          ml={2}
         >
-          {' '}
-          Hakim Mudor
+          <span> Hakim Mudor</span>
         </Text>
       </LogoBox>
     </Link>

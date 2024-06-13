@@ -5,16 +5,16 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="HRMS">
+  <Layout title="Farm-D Project">
     <Container>
       <Title>
-        Farm-D Project<Badge>2023-</Badge>
+        Farm-D Project <Badge>2023 - current</Badge>
       </Title>
       <P>Project for developing systems for agricultural personnel</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://farmd.vercel.app/">
+          <Link href="https://farmd.vercel.app/" isExternal>
             https://farmd.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
