@@ -82,21 +82,7 @@ const Home = () => (
           to every project. I&apos;m dedicated to delivering top-quality
           results, and his attention to detail is second to none. If you&apos;re
           looking for a talented and reliable developer, look no further than
-          Hakim Mudor.{' '}
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
-          </Link>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <Link
-            as={NextLink}
-            href="https://www.youtube.com/devaslife"
-            passHref
-            target="_blank"
-          >
-            Dev as Life
-          </Link>
-          &quot; has more than 100k subscribers.
+          Hakim Mudor.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
