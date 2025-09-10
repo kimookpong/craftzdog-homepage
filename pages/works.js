@@ -13,6 +13,8 @@ import thumbUdcity from '../public/images/works/udcity.png'
 import thumbPharmwuclerkship from '../public/images/works/pharmwuclerkship.png'
 import thumbPharmwualumni from '../public/images/works/pharmwualumni.png'
 import thumbAssets from '../public/images/works/assets.png'
+import thumbAbgameMulti from '../public/images/works/abgame.png'
+import thumbStocklazer from '../public/images/works/stocklazer.png'
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -105,7 +107,7 @@ const Works = () => (
       <Section delay={0.2}>
         <Divider my={6} />
         <Heading as="h3" fontSize={20} mb={4}>
-          Games
+          Hobby Projects
         </Heading>
       </Section>
 
@@ -114,6 +116,16 @@ const Works = () => (
           <WorkGridItem id="ab-game" title="AB-Game" thumbnail={thumbAbgame}>
             The AB Game is a guessing game where players try to guess a 4-digit
             number, with each digit being unique.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="stocklazer"
+            title="Stock Lazer"
+            thumbnail={thumbStocklazer}
+          >
+            Stock Lazer is a real-time stock management system that utilizes QR
+            code scanning for efficient inventory tracking.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
