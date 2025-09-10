@@ -13,7 +13,6 @@ import thumbUdcity from '../public/images/works/udcity.png'
 import thumbPharmwuclerkship from '../public/images/works/pharmwuclerkship.png'
 import thumbPharmwualumni from '../public/images/works/pharmwualumni.png'
 import thumbAssets from '../public/images/works/assets.png'
-import thumbAbgameMulti from '../public/images/works/abgame.png'
 import thumbStocklazer from '../public/images/works/stocklazer.png'
 const Works = () => (
   <Layout title="Works">
