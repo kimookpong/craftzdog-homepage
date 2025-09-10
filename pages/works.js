@@ -9,7 +9,10 @@ import thumbWdw from '../public/images/works/wdw_pos.png'
 import thumbStock from '../public/images/works/stock.png'
 import thumbFarmd from '../public/images/works/farmd_01.png'
 import thumbAbgame from '../public/images/works/abgame.png'
-
+import thumbUdcity from '../public/images/works/udcity.png'
+import thumbPharmwuclerkship from '../public/images/works/pharmwuclerkship.png'
+import thumbPharmwualumni from '../public/images/works/pharmwualumni.png'
+import thumbAssets from '../public/images/works/assets.png'
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -41,6 +44,45 @@ const Works = () => (
           >
             A stock management system utilizing QR code scanning for real-time
             verification and monitoring
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="udcity"
+            title="Udon City Tourism"
+            thumbnail={thumbUdcity}
+          >
+            A tourism platform showcasing attractions and services in Udon City
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="pharmwuclerkship"
+            title="Pharmacy WU Clerkship"
+            thumbnail={thumbPharmwuclerkship}
+          >
+            A platform for managing pharmacy clerkship programs at Walailak
+            University
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="pharmwualumni"
+            title="Pharmacy WU Alumni"
+            thumbnail={thumbPharmwualumni}
+          >
+            A platform for managing pharmacy alumni relations at Walailak
+            University
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="assets"
+            title="Government Asset Information Management System"
+            thumbnail={thumbAssets}
+          >
+            A platform for managing government asset information and
+            documentation
           </WorkGridItem>
         </Section>
       </SimpleGrid>
